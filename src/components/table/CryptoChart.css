@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+.wrapper{
+    background-color: #0b1426;
+    /* height: 100vh; */
+}
+.widget{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.card{
+    border-radius: 8px;
+    margin-top: 30px;
+    padding: 10px;
+    background-color: #0b223c;
+    color: white;
+}
+.table{
+    background-color: #0b223c;
+    color: #93d4ff;
+    margin-top: 20px;
+}
+/* #starred{
+    box-shadow: 3px 3px 10px #b5b5b5;
+} */
+.table div.text-muted{
+    font-size: 0.85rem;
+    font-weight: 600;
+    margin-bottom: 0.3rem;
+    margin-top: 0.3rem;
+}
+.icons{
+    object-fit: contain;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+}
+.graph img{
+    object-fit: contain;
+    width: 40px;
+    height: 50px;
+    /* transform: scale(2) rotateY(45deg); */
+}
+
+.font-weight-bold{
+    font-size: 1.3rem;
+}
+
+/* utility classes */
+/* .table tr td{
+    border: none;
+} */
+
+/* .border-right{
+    transform: scale(0.6);
+    border-right: 1px solid black!important;
+} */
+/* .box{
+    transform: scale(1.5);
+    background-color: #dbe2ff;
+} */
+/* #top .table tbody tr{
+    border-bottom: 1px solid #ddd;
+} */
+/* #top .table tbody tr:last-child{
+    border: none;
+} */
+/* select{
+    background-color: inherit;
+    padding: 8px;
+    border-radius: 5px;
+    color: #444;
+    border: 1px solid #444;
+    outline-color: #00f;
+}
+.text-white{
+    background-color: rgb(43, 159, 226);
+    border-radius: 50%;
+    font-size: 0.7rem;
+    font-weight: 700;
+    padding: 2px 3px;
+} */
+
+
+/* Scrollbars */
+::-webkit-scrollbar{
+    width: 10px;
+    height: 4px;
+}
+::-webkit-scrollbar-thumb{
+    background: linear-gradient(45deg,#999,#777);
+    border-radius: 10px;
+    
+}
+
+/* media Queries */
+@media(max-width:379px){
+    .d-lg-flex .h3{
+        font-size: 1.4rem;
+    }
+}
+@media(max-width:352px){
+    #plat{
+        margin-top: 10px;
+    }
+}
